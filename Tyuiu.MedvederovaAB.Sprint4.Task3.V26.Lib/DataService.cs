@@ -14,7 +14,7 @@ namespace Tyuiu.MedvederovaAB.Sprint4.Task3.V26.Lib
             {
                 for (int j = 0; j < n; j++)
                 {
-                    a[i, j] = r.Next(0, 10);
+                    a[i, j] = r.Next(2, 6);
                     Console.Write(a[i, j] + " ");
                 }
             }
